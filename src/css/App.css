@@ -1,0 +1,60 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Remove browser's default margin */
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* Make .App cover full height */
+.App {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Light mode background & text */
+.App.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Dark mode background & text */
+.App.dark {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+/* Page content should expand to fill */
+.page-content {
+  flex: 1;
+}
+
+/* Toggle button */
+.button{
+  background: none;
+  border: 2px solid currentColor;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: inherit;
+  margin: 20px;;
+}
+
+.button:hover{
+  opacity: 0.7;
+}

@@ -1,0 +1,37 @@
+.contact {
+    display: flex;
+    flex-direction: column;   /* stack icons and button vertically */
+    justify-content: center;  /* center vertically */
+    align-items: center;      /* center horizontally */
+    height: 100vh;            /* full viewport height */
+    gap: 40px;                /* space between icons and button */
+}
+
+.contact nav {
+    display: flex;
+    gap: 80px;               /* space between images */
+}
+
+.contact img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.contact img:hover {
+    transform: scale(1.2);
+}
+
+.contact button {
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    transform: scale(1.05);
+}

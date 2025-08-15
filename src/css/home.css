@@ -1,0 +1,43 @@
+.home {
+  display: flex;               /* side by side */
+  align-items: center;         /* vertical center */
+  justify-content: center;     /* center horizontally */
+  gap: 40px;                   /* space between image and text */
+  padding: 100px;               /* some spacing around */
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  flex-shrink: 0;              /* prevent shrinking */
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;   /* stack text and button vertically */
+  align-items: flex-start;  /* left align */
+}
+
+.text-block .text {
+  margin-bottom: 50px;      /* space between text and button */
+}
+
+.resume {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.resume:hover {
+  background-color: #555;
+}
+

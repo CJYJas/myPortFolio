@@ -1,0 +1,23 @@
+.footer {
+    color: #f5f5f5;           /* Light text */
+    text-align: center;       /* Center all text */
+    padding: 50px;       /* Space inside footer */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 70px;
+}
+
+.footer p {
+    margin: 5px 0; /* Small space between lines */
+}
+
+.footer p:first-child {
+    font-weight: bold; /* Make copyright bold */
+}
+
+.footer small{
+    margin: 20px;
+    font-style: italic; /* Make motto stylish */
+    color: #cccccc;     /* Slightly lighter */
+}
